@@ -51,7 +51,7 @@ set cname [hm_entityinfo name components $i]
 # recupere l'id de chaque element trouver
 foreach elemid $elems {
 		set elemconfig [hm_getentityvalue elems $elemid config 0 -byid]
-#		puts $elemconfig
+			#puts $elemconfig
 	#Détecte un autre processus lent dans la recherche de point de grille pour chaque élément
 		switch $elemconfig {
 			204 {
