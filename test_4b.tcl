@@ -65,10 +65,3 @@ foreach elemid $elems {
 			append elem_info ", "
 			append content  "\n $elem_info"
 		}
-
-	   # Créer un noeud au centroïde de l'élément. Traduire le nœud dans la direction
-		# positive de l'élément normal d'une quantité égale à la plus courte diagonale
-		 # d'un élément quad et au plus petit côté d'un élément tria. Créez un élément 
-		  # tétra ou un élément pyramide en utilisant la liste de nœuds d'élément d'origine
-		   # et le nouveau nœud créé par le script.
-
